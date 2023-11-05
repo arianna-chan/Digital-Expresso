@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 50px; /* Adjust the margin to your preference */
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BBAE9B;
+    padding: 10px 0;
+    width: 100% !important;
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.site-nav li {
+    margin: 0;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-image {
+    height: 200px;
+}
+
+.site-nav a:hover {
+    color: #8B0000;
+}
+
+.site-nav li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.table-striped {
+    background-color:#F4F4F4;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.table-striped th {
+    background-color:#FFFFFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-striped td {
+    background-color:#F4F4F4;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.site-footer {
+    background-color: #604D49; /* Background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 0.5px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
